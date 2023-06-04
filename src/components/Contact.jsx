@@ -7,11 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
-// template_vii3ovb
-// service_3wb9cpb
-// UDjKDgURGK0a49GVf
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -22,6 +17,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  //service_3wb9cpb  //service_3wb9cpb  //UDjKDgURGK0a49GVf
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -36,15 +32,14 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
+    emailjs.send(
         'service_3wb9cpb',
-        'template_vii3ovb',
+       'template_vii3ovb',
         {
           from_name: form.name,
-          to_name: "Naveen",
+          to_name: "naveen reddy",
           from_email: form.email,
-          to_email: "Naveenreddy4411@gmail.com",
+          to_email: "naveenreddy4411@gmail.com",
           message: form.message,
         },
         'UDjKDgURGK0a49GVf'
@@ -103,7 +98,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your e-mail address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
