@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a versatile professional with diverse skills, I am passionate about leveraging my expertise to drive success in the digital landscape. With experience as both a WordPress and technical recruiter, I bring a unique perspective to my work that allows me to develop innovative strategies that deliver results.
+        As a versatile professional with diverse skills, I am passionate about leveraging my expertise to drive success in the digital landscape. With experience as technical recruiter, I bring a unique perspective to my work that allows me to develop innovative strategies that deliver results.
 
-        As a driven and dedicated professional, I am always looking for new opportunities to learn and grow. Whether exploring new technologies or developing new strategies, I am committed to staying ahead of the curve and driving results for my clients and colleagues.
+        As a driven and dedicated professional, I am looking for new opportunities to learn and grow. Whether exploring new technologies or developing new strategies, I am committed to staying ahead of the curve and driving results for my clients and colleagues.
 
         "Building my coding skills 🛠️"Aspiring developer 💻"Coding my way to success 🌟"Learning to code, one day at a time⏰"Techenthusiast,coding beginner 🔍
 
