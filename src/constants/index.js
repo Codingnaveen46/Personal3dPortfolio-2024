@@ -46,19 +46,19 @@ const services = [
     title: "HR RecruiterLevel 2",
     icon: web,
   },
-  // {
-  //   title: "Frontend Developer",
-  //   icon: mobile,
-  // },
+  // // {
+  // //   title: "Frontend Developer",
+  // //   icon: mobile,
+  // // },
   {
     title: "Technical Recruiter",
     icon: backend,
   },
-  {
-    // title: "Full stack web developement certificate",
-    // source_code_link:
-    //   "https://learn.pwskills.com/certificate/089f566f-4ddb-4929-b4be-dc5358954fde",
-  },
+  // {
+  //   // title: "Full stack web developement certificate",
+  //   // source_code_link:
+  //   //   "https://learn.pwskills.com/certificate/089f566f-4ddb-4929-b4be-dc5358954fde",
+  // },
 ];
 
 const technologies = [
